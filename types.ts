@@ -4,12 +4,13 @@ export enum OrangePhase {
   TimerActive = 2,
   LeaningNo = 3,
   Sad = 4,
-  RestoreNo = 5
+  RestoreNo = 5,
+  Hidden = 6,
 }
 
 export enum NoButtonPhase {
   Visible = 0,
   Hidden = 1,
   Restored = 2,
-  ClickedSike = 3
+  ClickedSike = 3,
 }
