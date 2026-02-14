@@ -149,7 +149,11 @@ export default function App() {
 
       <div className="w-full max-w-2xl bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-8 md:p-12 text-center border border-white/50 fade-in flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl/[5rem] font-pacifico text-pink-600 mb-8 leading-relaxed drop-shadow-sm">
-          Farah 🍯sah Gaffney<br></br>Will you{" "}
+          Farah{" "}
+          <span className="inline-block hover:scale-125 transition-transform cursor-default">
+            🍯
+          </span>
+          sah Gaffney<br></br>Will you{" "}
           <span className="inline-block hover:scale-125 transition-transform cursor-default">
             🐝
           </span>{" "}
